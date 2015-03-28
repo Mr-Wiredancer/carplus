@@ -3,7 +3,7 @@ html, body {
   width: 100%;
 }
 
-.row2, .row3, .row4 {
+.row3, .row4 {
   height: 100%;
   width: 100%;
   overflow:hidden;
@@ -11,12 +11,24 @@ html, body {
 
 .row1 {
   height: 100%;
-  /*min-height: 500px;*/
   width: 100%;
   overflow: hidden;
 
   /*to center the iamge*/
-  background: url("/assets/background2.png") no-repeat center center; 
+  background: url("/assets/background1-1920.png") no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.row2 {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+
+  /*to center the iamge*/
+  background: url("/assets/background2-1920.png") no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -28,7 +40,7 @@ html, body {
 }
 
 .row2, .row4 {
-  background-color: yellow;
+  /*background-color: yellow;*/
 }
 
 /*.row1 .container {
